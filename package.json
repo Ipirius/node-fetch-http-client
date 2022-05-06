@@ -1,0 +1,42 @@
+{
+  "name": "node-fetch-http-client",
+  "version": "0.0.1",
+  "description": "Node0fetch based http client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix lib/**",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ipirius/node-fetch-http-client.git"
+  },
+  "author": "ipirius@gmail.com (Mykyta Mazur)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ipirius/node-fetch-http-client/issues"
+  },
+  "homepage": "https://github.com/Ipirius/node-fetch-http-client#readme",
+  "dependencies": {
+    "lodash.omit": "^4.5.0",
+    "node-fetch": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "eslint-config-prettier": "^6.10.0",
+    "jest": "^28.0.3",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
